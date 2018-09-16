@@ -40,7 +40,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#workouts">Workouts</a>
+              <a class="nav-link js-scroll-trigger" href="#wcustomtrainingplans">Custom Training Plans</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#coaching">Coaching</a>
@@ -68,26 +68,33 @@
 <!--           </div> -->
           <div class="col-lg-8 mx-auto">
             <p class="text-white mb-4"><b>Workouts and Coaching for Running.</b></p>
-            <a class="btn btn-light btn-l js-scroll-trigger" href="#workouts">Let's Go</a>
+            <a class="btn btn-light btn-l js-scroll-trigger" href="#customtrainingplans">Let's Go</a>
           </div>
         </div>
       </div>
     </header>
   
-    <section id="workouts" class="bg-primary">
+    <section id="customtrainingplans" class="bg-primary">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white"><b>Workouts</b></h2>
-            <p class="text-faded mb-0">You've done this before, just need some ideas.</p>
+            <h2 class="section-heading text-white"><b>Custom Training Plans</b></h2>
+            <p class="text-faded mb-0">You've done this before, just need some ideas to get started.</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-4 col-md-6 text-center mx-auto">
+          <div class="col-lg-3 col-md-6 text-center mx-auto">
             <div class="service-box mt-4 mx-auto">
               <i class="fa fa-lg fa-heartbeat mb-2 text-white sr-icons"></i>
               <h5 class="mb-0 text-white">Customized</h5>
-              <p class="text-faded small mb-4">Prescribed workouts and goal paces are based on your current level of fitness. Fill out the form below.</p>
+              <p class="text-faded small mb-4">Workouts and training paces are based on your current level of fitness.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-4 mx-auto">
+              <i class="fa fa-lg fa-calendar-check-o mb-3 sr-icons"></i>
+              <h5 class="mb-0">Works for you</h5>
+              <p class="text-muted small mb-0">Tell me when you can workout, and I'll do the rest.</p>
             </div>
           </div>
         </div>
@@ -106,6 +113,38 @@
             </div>
             <div class="form-group mb-1">
               <textarea class="form-control form-control-sm input-sm" name="entry.46647385" placeholder="Describe your goal: What are you training for?" rows="2" id="goal" required></textarea>
+            </div>
+            <div class="form-group mb-1">
+              <label for="easyrange">Example range</label>
+              <input type="easyrange" class="custom-range" min="0" max="5" step="0.5" id="easyrange">
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="M" value="M">
+              <label class="form-check-label" for="M">M</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="T" value="T">
+              <label class="form-check-label" for="T">T</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="W" value="W">
+              <label class="form-check-label" for="W">W</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="Th" value="Th">
+              <label class="form-check-label" for="Th">Th</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="F" value="F">
+              <label class="form-check-label" for="F">F</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="Sa" value="Sa">
+              <label class="form-check-label" for="Sa">Sa</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="Su" value="Su">
+              <label class="form-check-label" for="Su">Su</label>
             </div>
             <div class="form-group mb-1">
               <textarea class="form-control form-control-sm input-sm" name="entry.478283419" placeholder="Describe your fitness: How many days per week are you running? Longest run these days?  Weekly mileage?  Typical easy run pace?  Recent race performances?  Injury history?&#10;&#10;The more details here, the better.." rows="5" id="fitness" required></textarea>
@@ -133,21 +172,21 @@
             <div class="service-box mt-4 mx-auto">
               <i class="fa fa-lg fa-heartbeat mb-3 sr-icons"></i>
               <h5 class="mb-0">Customized</h5>
-              <p class="text-muted small mb-0">Based on your current level of fitness.</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-4 mx-auto">
-              <i class="fa fa-lg fa-line-chart mb-3 sr-icons"></i>
-              <h5 class="mb-0">Dynamic</h5>
-              <p class="text-muted small mb-0">Accurate training paces, workouts, and goal times based on your evolving fitness.</p>
+              <p class="text-muted small mb-0">Workouts and training paces are based on your current level of fitness.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-4 mx-auto">
               <i class="fa fa-lg fa-calendar-check-o mb-3 sr-icons"></i>
-              <h5 class="mb-0">Flexible</h5>
-              <p class="text-muted small mb-0">Your build-up should work for you.</p>
+              <h5 class="mb-0">Works for you</h5>
+              <p class="text-muted small mb-0">Tell me when you can workout, and I'll do the rest.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-4 mx-auto">
+              <i class="fa fa-lg fa-line-chart mb-3 sr-icons"></i>
+              <h5 class="mb-0">Adaptive</h5>
+              <p class="text-muted small mb-0">Accurate training paces, workouts, and goal times based on your evolving fitness.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
