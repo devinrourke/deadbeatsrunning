@@ -124,7 +124,7 @@ img::-moz-selection {
   background-color: transparent;
 }
 
-@media (min-width: 992px) {
+@media {
   #mainNav {
     border-color: transparent;
     background-color: transparent;
