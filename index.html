@@ -12,6 +12,9 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- recaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -313,6 +316,9 @@
             <div class="form-group mt-1 mb-2">
               <textarea class="form-control form-control-sm input-sm" style="font-size:0.8em" name="entry.478283419" placeholder="Describe your fitness: How many days per week are you running? Longest run?  Average weekly mileage?  Injury history?&#10;&#10;The more details here, the better.." rows="6" id="fitness" required></textarea>
             </div>
+            <form action="?" method="POST">
+              <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+              <br/>
             <div class="form-group mb-1 text-center">
               <button type="submit" class="btn btn-light btn-l btn-grow">Submit</button>
             </div>
