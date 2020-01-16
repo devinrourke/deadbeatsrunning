@@ -315,7 +315,7 @@
             </div>
             <div class="form-row">
               <div class="form-group mb-1 col">
-                <input type="text" class="form-control form-control-sm input-sm" name="entry.302119568" id="valid" minlength="2" maxlength="2" pattern="^42$" placeholder="Human?  What's 41+1?" style="font-size:0.8em" required>
+                <input type="text" class="form-control form-control-sm input-sm" name="entry.302119568" id="valid" minlength="2" maxlength="2" pattern="^42$" placeholder="Human?  What's 41+1?" style="font-size:0.8em" required oninvalid="setCustomValidity('Are you sure you're human?')" onchange="try{setCustomValidity('')}catch(e){}"/>
               </div>
             </div>
             <div class="form-group mb-1 text-center">
