@@ -8,23 +8,14 @@ $(function() {
       // The key name on the left side is the name attribute
       // of an input field. Validation rules are defined
       // on the right side
-      name: "required",
-      email: {
-        required: true,
-        // Specify that email should be validated
-        // by the built-in "email" rule
-        email: true
-      },
-      valid: {
+      entry.302119568: {
         required: true,
         equalTo: 42
       }
     },
     // Specify validation error messages
     messages: {
-      name: "Please enter your Name",
-      valid: "Please prove you are human",
-      email: "Please enter a valid email address"
+      entry.302119568: "Please prove you are human",
     },
     // Make sure the form is submitted to the destination defined
     // in the "action" attribute of the form when valid
